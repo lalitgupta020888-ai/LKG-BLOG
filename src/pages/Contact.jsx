@@ -57,9 +57,12 @@ const Contact = () => {
                   <a href="tel:+1234567890" className="text-gray-300 hover:text-primary-400">
                     +91 7678310053
                   </a>
+                <div>
+                  <h3 className="font-semibold text-white mb-1">WhatsApp</h3>
                   <a href="tel:+1234567890" className="text-gray-300 hover:text-primary-400">
                     +91 8650368283
                   </a>
+                </div>
                 </div>
               </div>
               <div className="flex items-start">
