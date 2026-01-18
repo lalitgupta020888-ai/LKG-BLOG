@@ -1,4 +1,4 @@
-import { FaCode, FaLaptopCode, FaRocket, FaGraduationCap } from 'react-icons/fa'
+import { FaCode, FaLaptopCode, FaRocket } from 'react-icons/fa'
 
 const About = () => {
   const skills = [
@@ -96,20 +96,6 @@ const About = () => {
                 <p className="text-gray-300 text-justify">{exp.description}</p>
               </div>
             ))}
-          </div>
-        </div>
-
-        <div className="bg-gray-900 rounded-lg shadow-md p-8 border border-gray-800">
-          <div className="flex items-center mb-6">
-            <FaGraduationCap className="text-primary-400 text-2xl mr-3" />
-            <h3 className="text-2xl font-bold text-white">Education</h3>
-          </div>
-          <div className="space-y-4">
-            <div>
-              <h4 className="text-lg font-bold text-white">Master of Technology</h4>
-              <p className="text-primary-400">Computer Science</p>
-              <p className="text-gray-400 text-sm">2010 - 2012</p>
-            </div>
           </div>
         </div>
       </div>
